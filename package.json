@@ -1,0 +1,27 @@
+{
+  "name": "submission-books",
+  "version": "1.0.0",
+  "description": "submission dicoding ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src",
+    "fixlint": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "KusenaDev",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
